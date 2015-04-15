@@ -49,7 +49,8 @@ if (!preg_match('#^//#', $commit_message))
     'ws',
     'pdf',
     'tr',
-    'lo'
+    'lo',
+    'test'
   );
   if (!preg_match('#^\[(\+|\-|\*|~)\] ('.implode('|', $keywords).') ?:.*#si', $commit_message))
   {
