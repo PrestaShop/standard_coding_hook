@@ -57,7 +57,7 @@ if (!preg_match('#^//#', $commit_message))
     fwrite($fd, "** INVALID COMMIT MESSAGE **\n");
     fwrite($fd, "Log message format must be :\n");
     fwrite($fd, "[*] or [-] or [+] or [~] KEYWORD : MESSAGE\n");
-    fwrite($fd, "[*] = improvment\n");
+    fwrite($fd, "[*] = improvement\n");
     fwrite($fd, "[+] = new feature\n");
     fwrite($fd, "[-] = bug fixed\n");
     fwrite($fd, "[~] = deprecated\n\n");
